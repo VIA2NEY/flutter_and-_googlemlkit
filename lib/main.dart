@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ml_kit_in_flutter/pages/home_pages.dart';
+import 'package:ml_kit_in_flutter/pages/image_labelling.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const ImageLabelingPage(),
     );
   }
 }
